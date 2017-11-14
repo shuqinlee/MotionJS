@@ -1,0 +1,23 @@
+#container {
+    height: 700px;
+    width: 620px;
+    /*overflow-y: hidden;*/
+    overflow-y: scroll;
+    overflow-x: scroll;
+    float: left;
+    overflow: scroll;
+    padding-left: 20px;
+    
+}
+
+
+.motion_img {
+    width: 150px;
+}
+#video-zone {
+    float: right;
+    padding-right: 20px;
+}
+#options {
+/*    float: right;*/
+}

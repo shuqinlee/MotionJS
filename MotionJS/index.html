@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/video-js.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <title>Motion Profile</title>
+</head>
+
+<body>
+<div>
+    <div id="container">
+        <img class="motion_img" id="o0">
+        <img class="motion_img" id="o1">
+        <img class="motion_img" id="o2">
+        <img class="motion_img" id="o3">
+    </div>
+    <div id="video-zone">
+        <select id="selectFileList"></select>
+        <div id="options">
+            <button onclick="play()">start</button>
+            <button onclick="pause()">stop</button>
+
+            <input type="number" id="time">
+
+            <button onclick="setTime()">setTime</button>
+        </div>
+    </div>
+
+    
+</div>
+    
+
+
+
+</body>
+
+
+<script type="text/javascript" src="./js/video.min.js" ></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/motion.js"></script>
+
+</html>

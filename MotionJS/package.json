@@ -1,0 +1,15 @@
+{
+  "name": "motionjs",
+  "version": "1.0.0",
+  "description": "A tool for simultaneously evaluating motion profiles in different zones while watching video.",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "start"
+  },
+  "author": "shuqinlee",
+  "license": "ISC"
+}
