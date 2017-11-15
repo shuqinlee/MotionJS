@@ -46,17 +46,31 @@ xhr.onload = function () {
 
 $(document).ready(function (e) {
 
+    var coor = $('#coordinate');
+    var curTime = $('#curTime');
+    
     for (var i = 0; i < motion_img.length; i++) {
         $(motion_img[i]).on('click', function (event) {
-
+            
+            var x = event.offsetX;
             var y = event.offsetY;
+            
+            x = 480/150 * x;
             var n = 480/150 * y
             console.log("frame number: " + n);
+            
+
+            
+            coor.text('(' + Math.round(x) + ', ' + Math.round(n) + ')');
+
             n = n/30;
             console.log("second: " + n);
 
             var myPlayer = videojs('my-video');
             myPlayer.currentTime(n);
+            
+            curTime.text(Math.round(n) + ' s');
+            
         });
     }
     select_box.on('change', function (event) {

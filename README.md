@@ -21,7 +21,7 @@ git clone https://github.com/shuqinlee/MotionProfileJS.git
 
 Open `MotionJS\public` folder, **place your motion profiles into `img` folder and videos into `videos` corresponding to the name of motion profiles.** (for now, maybe improved later)
 
-把motion profiles放到`img`文件夹下，相对应的视频放在`videos`文件夹下。
+把motion profiles放到`img`文件夹下，相对应的视频放在`video`文件夹下。
 
 ## Run
 
